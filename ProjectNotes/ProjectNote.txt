@@ -1,0 +1,12 @@
+Gihub :-
+Username - JMahesh1990
+Password - JMahesh@1990
+Email - jejurkar.mahesh@gmail.com
+
+Jenkins
+maheshjeje
+JMahesh@1990
+
+https://github.com/JMahesh1990/GitDemo.git
+
+https://confluence.atlassian.com/bitbucketserver0514/get-started-with-bitbucket-server/git-resources/basic-git-commands
