@@ -17,6 +17,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class StandAloneTest {
 
 	public static void main(String[] args) throws Exception {
+		//New comment added...
 		WebDriverManager.chromedriver().setup();		
 		WebDriver driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
