@@ -1,4 +1,4 @@
-package seleniumframeworkdesign.test;
+package test;
 
 import java.io.File;
 import java.io.IOException;
@@ -12,12 +12,12 @@ import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-import seleniumframeworkdesign.abstractcomponents.OrderPage;
-import seleniumframeworkdesign.pageobjects.CartPage;
-import seleniumframeworkdesign.pageobjects.CheckoutPage;
-import seleniumframeworkdesign.pageobjects.ConfirmationPage;
-import seleniumframeworkdesign.pageobjects.ProductCatalogue;
-import seleniumframeworkdesign.testcomponents.BaseTest;
+import abstractcomponents.OrderPage;
+import pageobjects.CartPage;
+import pageobjects.CheckoutPage;
+import pageobjects.ConfirmationPage;
+import pageobjects.ProductCatalogue;
+import testcomponents.BaseTest;
 
 public class SubmitOrderTest extends BaseTest{
 	

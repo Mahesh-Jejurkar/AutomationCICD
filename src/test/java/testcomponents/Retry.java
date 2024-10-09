@@ -1,4 +1,4 @@
-package seleniumframeworkdesign.testcomponents;
+package testcomponents;
 
 import org.testng.IRetryAnalyzer;
 import org.testng.ITestResult;

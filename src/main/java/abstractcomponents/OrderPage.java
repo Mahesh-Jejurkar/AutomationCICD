@@ -1,4 +1,4 @@
-package seleniumframeworkdesign.abstractcomponents;
+package abstractcomponents;
 
 import java.util.List;
 
@@ -11,9 +11,6 @@ public class OrderPage extends AbstractCompnent{
 	
 	WebDriver driver;
 	
-	@FindBy(xpath="//*[contains(@class, 'table-bordered')]//tr//td[2]")
-	List<WebElement> tableProductNames;
-
 	public OrderPage(WebDriver driver) {
 		super(driver);
 		this.driver = driver;
@@ -21,6 +18,10 @@ public class OrderPage extends AbstractCompnent{
 	}
 	
 	
+	@FindBy(xpath="//*[contains(@class, 'table-bordered')]//tr//td[2]")
+	List<WebElement> tableProductNames;
+
+
 	public Boolean verifyOrderDisplay(String productName) {
 		Boolean match =	tableProductNames.stream().anyMatch(product->product.getText().equalsIgnoreCase(productName));
 		return match;

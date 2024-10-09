@@ -1,4 +1,4 @@
-package seleniumframeworkdesign.testcomponents;
+package testcomponents;
 
 import org.openqa.selenium.WebDriver;
 import org.testng.ITestContext;
@@ -9,7 +9,7 @@ import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 
-import seleniumframeworkdesign.resources.ExtentReporterNG;
+import resources.ExtentReporterNG;
 
 public class Listeners extends BaseTest implements ITestListener {
 	ExtentTest test;

@@ -1,12 +1,12 @@
-package seleniumframeworkdesign.test;
+package test;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import seleniumframeworkdesign.pageobjects.CartPage;
-import seleniumframeworkdesign.pageobjects.ProductCatalogue;
-import seleniumframeworkdesign.testcomponents.BaseTest;
-import seleniumframeworkdesign.testcomponents.Retry;
+import pageobjects.CartPage;
+import pageobjects.ProductCatalogue;
+import testcomponents.BaseTest;
+import testcomponents.Retry;
 
 public class ErrorValidationTest extends BaseTest{
 	

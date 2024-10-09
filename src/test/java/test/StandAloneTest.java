@@ -1,4 +1,4 @@
-package seleniumframeworkdesign.test;
+package test;
 
 import java.time.Duration;
 

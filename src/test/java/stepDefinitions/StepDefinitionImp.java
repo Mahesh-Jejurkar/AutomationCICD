@@ -1,14 +1,14 @@
-package seleniumframeworkdesign.stepDefinitions;
+package stepDefinitions;
 
 import org.testng.Assert;
 
 import io.cucumber.java.en.*;
-import seleniumframeworkdesign.pageobjects.CartPage;
-import seleniumframeworkdesign.pageobjects.CheckoutPage;
-import seleniumframeworkdesign.pageobjects.ConfirmationPage;
-import seleniumframeworkdesign.pageobjects.LandingPage;
-import seleniumframeworkdesign.pageobjects.ProductCatalogue;
-import seleniumframeworkdesign.testcomponents.BaseTest;
+import pageobjects.CartPage;
+import pageobjects.CheckoutPage;
+import pageobjects.ConfirmationPage;
+import pageobjects.LandingPage;
+import pageobjects.ProductCatalogue;
+import testcomponents.BaseTest;
 
 public class StepDefinitionImp extends BaseTest {
 	public LandingPage landingPage;

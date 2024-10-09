@@ -1,4 +1,4 @@
-package seleniumframeworkdesign.data;
+package data;
 
 import java.io.File;
 import java.nio.charset.StandardCharsets;

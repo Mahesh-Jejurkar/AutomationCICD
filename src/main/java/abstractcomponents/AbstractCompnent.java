@@ -1,4 +1,4 @@
-package seleniumframeworkdesign.abstractcomponents;
+package abstractcomponents;
 
 import java.time.Duration;
 
@@ -8,7 +8,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import seleniumframeworkdesign.pageobjects.CartPage;
+import pageobjects.CartPage;
 
 public class AbstractCompnent {
 	

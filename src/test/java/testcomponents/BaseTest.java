@@ -1,4 +1,4 @@
-package seleniumframeworkdesign.testcomponents;
+package testcomponents;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -22,7 +22,7 @@ import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
-import seleniumframeworkdesign.pageobjects.LandingPage;
+import pageobjects.LandingPage;
 
 public class BaseTest {
 
